@@ -7,11 +7,12 @@ class Name:
     def print_name(self):
         print (self.firstname + " " + self.lastname)
 
-    def return_firstnamme(self):
+    def return_firstname(self):
         return self.firstname
 
+    def return_lastname(self):
+        return self.lastname
 
-n1 = Name("Zeeshan", "Mulk")
-n1.print_name()
+
 
 
