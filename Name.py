@@ -10,8 +10,9 @@ class Name:
     def return_firstnamme(self):
         return self.firstname
 
+    def return_lastname(self):
+        return self.lastname
 
-n1 = Name("Zeeshan", "Mulk")
-n1.print_name()
+
 
 
